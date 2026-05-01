@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: dbo
+    database: InsuranceAnalyticsDB
+    schema: dbo
+    tables:
+      - name: stg_Customers
+      - name: stg_Policies
+      - name: stg_Claims
