@@ -99,7 +99,7 @@ When the full pipeline runs successfully:
 
 The dashboard consists of 3 pages built on top of the warehouse tables.
 
-### Page 1 — Claims Overview
+### Claims Overview
 | Visual | Description |
 |--------|-------------|
 | Total Claims | 5,000 total claims processed |
@@ -108,7 +108,7 @@ The dashboard consists of 3 pages built on top of the warehouse tables.
 | Monthly Claims Trend | Shows claim volumes across 2023-2026 |
 | Claims by Status | Equal split between Approved, Rejected and Pending |
 
-### Page 2 — Fraud Analysis
+### Fraud Analysis
 | Visual | Description |
 |--------|-------------|
 | Total Fraud Claims | Total flagged fraudulent claims |
@@ -118,7 +118,7 @@ The dashboard consists of 3 pages built on top of the warehouse tables.
 | Fraud vs Non-Fraud | Pie chart showing fraud proportion |
 | Avg Claim Amount by Fraud Flag | Fraudulent claims have higher amounts |
 
-### Page 3 — Customer & Policy Analysis
+### Customer & Policy Analysis
 | Visual | Description |
 |--------|-------------|
 | Total Customers | 2,000 customers across 9 provinces |
@@ -148,4 +148,16 @@ Click Load
 - Claims are evenly split between Approved, Rejected and Pending
 - Fraud rate is approximately 6% of all claims
 - Most customers fall in the 46+ age band
+
+## Dashboard Screenshots
+
+### Claims Overview
+![Claims Overview](images/claims_overview.png)
+
+### Fraud Analysis
+![Fraud Analysis](images/fraud_analysis.png)
+
+### Customer & Policy Analysis
+![Customer Policy Analysis](images/customer_policy_analysis.png)
+
 
