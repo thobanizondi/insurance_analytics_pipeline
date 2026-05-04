@@ -152,7 +152,7 @@ Click Load
 ## Dashboard Screenshots
 
 ### Claims Overview
-![Claims Overview](images/claims_overview.png)
+![Claims Overview](images/claim_overview.png)
 
 ### Fraud Analysis
 ![Fraud Analysis](images/fraud_analysis.png)
