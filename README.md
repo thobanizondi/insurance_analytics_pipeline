@@ -94,3 +94,58 @@ dbt test --project-dir . --profiles-dir ~/.dbt
 ## Pipeline Output
 
 When the full pipeline runs successfully:
+
+## Power BI Dashboard
+
+The dashboard consists of 3 pages built on top of the warehouse tables.
+
+### Page 1 — Claims Overview
+| Visual | Description |
+|--------|-------------|
+| Total Claims | 5,000 total claims processed |
+| Claims by Province | Gauteng leads with 633 claims |
+| Claims by Type | Medical, Theft and Accident are top claim types |
+| Monthly Claims Trend | Shows claim volumes across 2023-2026 |
+| Claims by Status | Equal split between Approved, Rejected and Pending |
+
+### Page 2 — Fraud Analysis
+| Visual | Description |
+|--------|-------------|
+| Total Fraud Claims | Total flagged fraudulent claims |
+| Fraud Rate | Percentage of claims flagged as fraud |
+| Fraud by Policy Type | Which policy types have most fraud |
+| Fraud by Province | Geographic distribution of fraud |
+| Fraud vs Non-Fraud | Pie chart showing fraud proportion |
+| Avg Claim Amount by Fraud Flag | Fraudulent claims have higher amounts |
+
+### Page 3 — Customer & Policy Analysis
+| Visual | Description |
+|--------|-------------|
+| Total Customers | 2,000 customers across 9 provinces |
+| Avg Claim Amount | Average claim value across all claims |
+| Customers by Province | Distribution across all 9 SA provinces |
+| Total Coverage by Policy Type | Life insurance has highest coverage |
+| Claims by Status | Approved vs Rejected vs Pending breakdown |
+| Customer Age Distribution | Most customers are aged 46 and above |
+
+### Connecting Power BI to SQL Server
+Open Power BI Desktop
+Click Get Data → SQL Server
+Server: DESKTOP-DTQB8CN\SQLEXPRESS
+Database: InsuranceAnalyticsDB
+Select these tables:
+
+dim_Customer
+dim_Policy
+dim_Date
+dim_RiskCategory
+fact_InsuranceClaims
+
+Click Load
+### Key Insights
+- Gauteng has the highest number of claims at 633
+- Life insurance has the highest total coverage amount
+- Claims are evenly split between Approved, Rejected and Pending
+- Fraud rate is approximately 6% of all claims
+- Most customers fall in the 46+ age band
+
