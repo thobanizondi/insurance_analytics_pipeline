@@ -5,11 +5,11 @@ End-to-end Data Engineering pipeline built on a South African insurance dataset.
 | Tool | Purpose |
 |------|---------|
 Python | Generates fake SA insurance data 
-SQL Server Express - Database and raw data storage 
-Stored Procedures - ETL from raw to staging tables 
-dbt - Data transformation and star schema modelling 
-Prefect - Pipeline orchestration and scheduling 
--GitHub - Version control 
+SQL Server Express| Database and raw data storage 
+Stored Procedures | ETL from raw to staging tables 
+dbt | Data transformation and star schema modelling 
+Prefect | Pipeline orchestration and scheduling 
+GitHub | Version control 
 
 ## Project Structure
 InsuranceAnalyticsPipeline/
